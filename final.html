@@ -33,8 +33,7 @@
 </nav>
 <center>
   <h1>A story game made with p5js</h1>
-  <p>This is a simple story game that is to tell a story of a child who stole their parent's money.<br>
-  There are four levels in the game. Fulfilling one's own wants with someone else's earnings without permission is mean.</p>
+  <p>I expanded on the idea of my game from the last p5.js game project.</p>
  <iframe src="firefly_story/index.html" height="605" width="605">
 
 <br><br><br>
@@ -58,101 +57,3 @@ function preload(){<br>
   back5 = loadImage("https://toasttoasttoast.github.io/art74/games/foregiven.png");<br>
 <br>
 }<br>
-<br>
-function setup() {<br>
-  createCanvas(600,600);<br>
-  textAlign(CENTER);<br>
-  textSize(25);<br>
-  fill(225,225,225);<br>
-}//end of setup<br>
-<br>
-<br>
-function draw() {<br>
-<br>
-  if(gameState == "L1"){<br>
-  levelOne();<br>
-  }<br>
-  if(gameState == "L2"){<br>
-    levelTwo();<br>
-  }<br>
-  if(gameState == "L3"){<br>
-    levelThree();<br>
-  }<br>
-  if(gameState == "L4"){<br>
-    levelFour();<br>
-  }<br>
-<br>
-  text(("Score: " + score),width/2,40);<br>
-<br>
-}//end of draw<br>
-<br>
-function levelOne(){<br>
-  background(back1);<br>
-  text("Steal parents money", width/2, height-20);<br>
-  var distToBall = dist(ballx, bally, mouseX, mouseY);<br>
-  if(distToBall < ballSize/2){<br>
-    ballx = random(width);<br>
-    bally = random(height);<br>
-    score = score + 1;<br>
-  }<br>
-  if(score >= 10){<br>
-    gameState = "L2";<br>
-  }<br>
-  image(money, ballx-20, bally-20);<br>
-  ellipse(ballx, bally, 1, 1);<br>
-} //end of level 1<br>
-<br>
-function levelTwo(){<br>
-  background(back2);<br>
-  text("buy some jars", width/2, height-20);<br>
-  var distToBall = dist(ballx, bally, mouseX, mouseY);<br>
-  if(distToBall < ballSize/2){<br>
-    ballx = random(width);<br>
-    bally = random(height);<br>
-    score = score + 1;<br>
-  }<br>
-  if(score >=20){<br>
-    gameState = "L3";<br>
-  }<br>
-  image(jar, ballx-50, bally-50);<br>
-  ellipse(ballx, bally, 1, 1);<br>
-} //end of level 2<br>
-<br>
-<br>
-function levelThree(){<br>
-  background(back3);<br>
-  text("catch fireflies", width/2, height-20);<br>
-  var distToBall = dist(ballx, bally, mouseX, mouseY);<br>
-  if(distToBall < ballSize/2){<br>
-    ballx = random(width);<br>
-    bally = random(height);<br>
-    score = score + 1;<br>
-  }<br>
-  if(score >= 30){<br>
-    gameState = "L4";<br>
-  }<br>
-<br>
-  image(firefly, ballx-20, bally-20);<br>
-  ellipse(ballx, bally, 1, 1);<br>
-} //end of level 3<br>
-<br>
-<br>
-<br>
-function levelFour(){<br>
-  background(back4);<br>
-  text("apologize", width/2, height-20);<br>
-  var distToBall = dist(ballx, bally, mouseX, mouseY);<br>
-  if(distToBall < ballSize/2){<br>
-    ballx = random(width);<br>
-    bally = random(height);<br>
-    score = score + 1;<br>
-  }<br>
-<br>
-  image(sorry, ballx-50, bally-50);<br>
-  ellipse(ballx, bally, 1, 1);<br>
-} //end of level 4<br>
-</p>
-</center>
-<br><br>
-</div>
-</body></html>
