@@ -58,18 +58,18 @@ function preload(){
   
   
   //animals
-  bunnyFace = loadImage("bunny.png");
-  wolfu = loadImage("wolfu.png");
-  breeze = loadImage("wolf1.png");
+  bunnyFace = loadImage("https://toasttoasttoast.github.io/art74/fgame/bunny.png");
+  wolfu = loadImage("https://toasttoasttoast.github.io/art74/fgame/wolfu.png");
+  breeze = loadImage("https://toasttoasttoast.github.io/art74/fgame/wolf1.png");
 
   //elements
-  snowflake = loadImage("snowflake.png");
-  soundwave = loadImage("sound.png");
-  chicken = loadImage("chicken.png");
-  bearprint = loadImage("bear.png");
-  jaw = loadImage("jaw.png");
-  apple = loadImage("apple.png");
-  muffin = loadImage("muffin.png");
+  snowflake = loadImage("https://toasttoasttoast.github.io/art74/fgame/snowflake.png");
+  soundwave = loadImage("https://toasttoasttoast.github.io/art74/fgame/sound.png");
+  chicken = loadImage("https://toasttoasttoast.github.io/art74/fgame/chicken.png");
+  bearprint = loadImage("https://toasttoasttoast.github.io/art74/fgame/bear.png");
+  jaw = loadImage("https://toasttoasttoast.github.io/art74/fgame/jaw.png");
+  apple = loadImage("https://toasttoasttoast.github.io/art74/fgame/apple.png");
+  muffin = loadImage("https://toasttoasttoast.github.io/art74/fgame/muffin.png");
   
 }
 
