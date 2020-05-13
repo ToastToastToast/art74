@@ -18,43 +18,43 @@ var timerM = 30; //Moon's test
 var timerB = 50; //Boss timer
 
 function preload(){
-  backStart = loadImage("Start.png");
-  backpg1 = loadImage("backpg1.png");
-  backBreezeIntro = loadImage("backpg2.png");
-  backMoonIntro = loadImage("backpg3.png");
-  backBruceIntro = loadImage("backpg4.png");
-  backWillowIntro = loadImage("backpg5.png");
-  backTitanIntro = loadImage("backpg6.png");
-  backpg7 = loadImage("backpg7.png");
-  backpg8 = loadImage("backpg8.png");
-  backpg9 = loadImage("backpg9.png");
-  backpg10 = loadImage("backpg10.png");
-  backpg11 = loadImage("backpg11.png");
-  backpg12 = loadImage("backpg12.png");
-  backpg13 = loadImage("backpg13.png");
-  backpg14 = loadImage("backpg14.png");
-  backpg15 = loadImage("backpg15.png");
-  backpg151 = loadImage("backpg15_1.png");
-  backpg16 = loadImage("backpg16.png");
-  backpg17 = loadImage("backpg17.png");
-  backpg18 = loadImage("backpg18.png");
-  backpg19 = loadImage("backpg19.png");
-  backpg20 = loadImage("backpg20.png");
-  backpg21 = loadImage("backpg21.png");
-  backpg22 = loadImage("backpg22.png");
-  backpg23 = loadImage("backpg23.png");
-  backpg24 = loadImage("backpg24.png");
-  backpg25 = loadImage("backpg25.png");
-  backpg26 = loadImage("backpg26.png");
-  backpg27 = loadImage("backpg27.png");
-  backpg28 = loadImage("backpg28.png");
-  backpg29 = loadImage("backpg29.png");
-  backpg30 = loadImage("backpg30.png");
-  backpg31 = loadImage("backpg31.png");
-  backpg32 = loadImage("backpg32.png");
-  backpg33 = loadImage("backpg33.png");
-  backpg34 = loadImage("backpg34.png");
-  backpg35 = loadImage("backpg35.png");
+  backStart = loadImage("https://toasttoasttoast.github.io/art74/fgame/Start.png");
+  backpg1 = loadImage("https://toasttoasttoast.github.io/art74/fgame/backpg1.png");
+  backBreezeIntro = loadImage("https://toasttoasttoast.github.io/art74/fgame/backpg2.png");
+  backMoonIntro = loadImage("https://toasttoasttoast.github.io/art74/fgame/backpg3.png");
+  backBruceIntro = loadImage("https://toasttoasttoast.github.io/art74/fgame/backpg4.png");
+  backWillowIntro = loadImage("https://toasttoasttoast.github.io/art74/fgame/backpg5.png");
+  backTitanIntro = loadImage("https://toasttoasttoast.github.io/art74/fgame/backpg6.png");
+  backpg7 = loadImage("https://toasttoasttoast.github.io/art74/fgame/backpg7.png");
+  backpg8 = loadImage("https://toasttoasttoast.github.io/art74/fgame/backpg8.png");
+  backpg9 = loadImage("https://toasttoasttoast.github.io/art74/fgame/backpg9.png");
+  backpg10 = loadImage("https://toasttoasttoast.github.io/art74/fgame/backpg10.png");
+  backpg11 = loadImage("https://toasttoasttoast.github.io/art74/fgame/backpg11.png");
+  backpg12 = loadImage("https://toasttoasttoast.github.io/art74/fgame/backpg12.png");
+  backpg13 = loadImage("https://toasttoasttoast.github.io/art74/fgame/backpg13.png");
+  backpg14 = loadImage("https://toasttoasttoast.github.io/art74/fgame/backpg14.png");
+  backpg15 = loadImage("https://toasttoasttoast.github.io/art74/fgame/backpg15.png");
+  backpg151 = loadImage("https://toasttoasttoast.github.io/art74/fgame/backpg15_1.png");
+  backpg16 = loadImage("https://toasttoasttoast.github.io/art74/fgame/backpg16.png");
+  backpg17 = loadImage("https://toasttoasttoast.github.io/art74/fgame/backpg17.png");
+  backpg18 = loadImage("https://toasttoasttoast.github.io/art74/fgame/backpg18.png");
+  backpg19 = loadImage("https://toasttoasttoast.github.io/art74/fgame/backpg19.png");
+  backpg20 = loadImage("https://toasttoasttoast.github.io/art74/fgame/backpg20.png");
+  backpg21 = loadImage("https://toasttoasttoast.github.io/art74/fgame/backpg21.png");
+  backpg22 = loadImage("https://toasttoasttoast.github.io/art74/fgame/backpg22.png");
+  backpg23 = loadImage("https://toasttoasttoast.github.io/art74/fgame/backpg23.png");
+  backpg24 = loadImage("https://toasttoasttoast.github.io/art74/fgame/backpg24.png");
+  backpg25 = loadImage("https://toasttoasttoast.github.io/art74/fgame/backpg25.png");
+  backpg26 = loadImage("https://toasttoasttoast.github.io/art74/fgame/backpg26.png");
+  backpg27 = loadImage("https://toasttoasttoast.github.io/art74/fgame/backpg27.png");
+  backpg28 = loadImage("https://toasttoasttoast.github.io/art74/fgame/backpg28.png");
+  backpg29 = loadImage("https://toasttoasttoast.github.io/art74/fgame/backpg29.png");
+  backpg30 = loadImage("https://toasttoasttoast.github.io/art74/fgame/backpg30.png");
+  backpg31 = loadImage("https://toasttoasttoast.github.io/art74/fgame/backpg31.png");
+  backpg32 = loadImage("https://toasttoasttoast.github.io/art74/fgame/backpg32.png");
+  backpg33 = loadImage("https://toasttoasttoast.github.io/art74/fgame/backpg33.png");
+  backpg34 = loadImage("https://toasttoasttoast.github.io/art74/fgame/backpg34.png");
+  backpg35 = loadImage("https://toasttoasttoast.github.io/art74/fgame/backpg35.png");
   
   
   //animals
@@ -440,8 +440,8 @@ function bossBattle(){
   background(backpg32);
   text("Get the jaws, avoid biting the food", width/2, height-20);
   var distToBall = dist(ballx, bally, mouseX, mouseY);
-  var distToBall2 = dist(ballx, bally, mouseX, mouseY);
-  var distToBall3 = dist(ballx, bally, mouseX, mouseY);
+  var distToBall2 = dist(ball2x, ball2y, mouseX, mouseY);
+  var distToBall3 = dist(ball3x, ball3y, mouseX, mouseY);
   if(distToBall < ballSize/2){
     ballx = random(width);
     bally = random(height);
