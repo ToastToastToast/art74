@@ -1,7 +1,7 @@
 var img;
 var ballx = 400;
 var bally = 300;
-//boss var
+//boss variables
 var ball2x = 200;
 var ball2y = 100;
 var ball3x = 600;
@@ -9,8 +9,7 @@ var ball3y = 300;
 //
 var ballSize = 40;
 var score = 0;  
-var gameState = "L1";
-var pageNumber = 0;
+var pageNumber = 0; //the state of the game
 var timer = 20; //timer for racing game
 var timerW = 20; //Willows sound test
 var timerT = 25; //Titan's Test
@@ -18,7 +17,7 @@ var timerM = 30; //Moon's test
 var timerB = 50; //Boss timer
 
 function preload(){
-  backStart = loadImage("https://toasttoasttoast.github.io/art74/Start.png");
+  backStart = loadImage("https://toasttoasttoast.github.io/art74/start.png");
   backpg1 = loadImage("https://toasttoasttoast.github.io/art74/backpg1.png");
   backBreezeIntro = loadImage("https://toasttoasttoast.github.io/art74/backpg2.png");
   backMoonIntro = loadImage("https://toasttoasttoast.github.io/art74/backpg3.png");
