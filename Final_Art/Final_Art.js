@@ -18,58 +18,58 @@ var timerM = 30; //Moon's test
 var timerB = 50; //Boss timer
 
 function preload(){
-  backStart = loadImage("https://toasttoasttoast.github.io/art74/fgame/Start.png");
-  backpg1 = loadImage("https://toasttoasttoast.github.io/art74/fgame/backpg1.png");
-  backBreezeIntro = loadImage("https://toasttoasttoast.github.io/art74/fgame/backpg2.png");
-  backMoonIntro = loadImage("https://toasttoasttoast.github.io/art74/fgame/backpg3.png");
-  backBruceIntro = loadImage("https://toasttoasttoast.github.io/art74/fgame/backpg4.png");
-  backWillowIntro = loadImage("https://toasttoasttoast.github.io/art74/fgame/backpg5.png");
-  backTitanIntro = loadImage("https://toasttoasttoast.github.io/art74/fgame/backpg6.png");
-  backpg7 = loadImage("https://toasttoasttoast.github.io/art74/fgame/backpg7.png");
-  backpg8 = loadImage("https://toasttoasttoast.github.io/art74/fgame/backpg8.png");
-  backpg9 = loadImage("https://toasttoasttoast.github.io/art74/fgame/backpg9.png");
-  backpg10 = loadImage("https://toasttoasttoast.github.io/art74/fgame/backpg10.png");
-  backpg11 = loadImage("https://toasttoasttoast.github.io/art74/fgame/backpg11.png");
-  backpg12 = loadImage("https://toasttoasttoast.github.io/art74/fgame/backpg12.png");
-  backpg13 = loadImage("https://toasttoasttoast.github.io/art74/fgame/backpg13.png");
-  backpg14 = loadImage("https://toasttoasttoast.github.io/art74/fgame/backpg14.png");
-  backpg15 = loadImage("https://toasttoasttoast.github.io/art74/fgame/backpg15.png");
-  backpg151 = loadImage("https://toasttoasttoast.github.io/art74/fgame/backpg15_1.png");
-  backpg16 = loadImage("https://toasttoasttoast.github.io/art74/fgame/backpg16.png");
-  backpg17 = loadImage("https://toasttoasttoast.github.io/art74/fgame/backpg17.png");
-  backpg18 = loadImage("https://toasttoasttoast.github.io/art74/fgame/backpg18.png");
-  backpg19 = loadImage("https://toasttoasttoast.github.io/art74/fgame/backpg19.png");
-  backpg20 = loadImage("https://toasttoasttoast.github.io/art74/fgame/backpg20.png");
-  backpg21 = loadImage("https://toasttoasttoast.github.io/art74/fgame/backpg21.png");
-  backpg22 = loadImage("https://toasttoasttoast.github.io/art74/fgame/backpg22.png");
-  backpg23 = loadImage("https://toasttoasttoast.github.io/art74/fgame/backpg23.png");
-  backpg24 = loadImage("https://toasttoasttoast.github.io/art74/fgame/backpg24.png");
-  backpg25 = loadImage("https://toasttoasttoast.github.io/art74/fgame/backpg25.png");
-  backpg26 = loadImage("https://toasttoasttoast.github.io/art74/fgame/backpg26.png");
-  backpg27 = loadImage("https://toasttoasttoast.github.io/art74/fgame/backpg27.png");
-  backpg28 = loadImage("https://toasttoasttoast.github.io/art74/fgame/backpg28.png");
-  backpg29 = loadImage("https://toasttoasttoast.github.io/art74/fgame/backpg29.png");
-  backpg30 = loadImage("https://toasttoasttoast.github.io/art74/fgame/backpg30.png");
-  backpg31 = loadImage("https://toasttoasttoast.github.io/art74/fgame/backpg31.png");
-  backpg32 = loadImage("https://toasttoasttoast.github.io/art74/fgame/backpg32.png");
-  backpg33 = loadImage("https://toasttoasttoast.github.io/art74/fgame/backpg33.png");
-  backpg34 = loadImage("https://toasttoasttoast.github.io/art74/fgame/backpg34.png");
-  backpg35 = loadImage("https://toasttoasttoast.github.io/art74/fgame/backpg35.png");
+  backStart = loadImage("https://toasttoasttoast.github.io/art74/game/Start.png");
+  backpg1 = loadImage("https://toasttoasttoast.github.io/art74/game/backpg1.png");
+  backBreezeIntro = loadImage("https://toasttoasttoast.github.io/art74/game/backpg2.png");
+  backMoonIntro = loadImage("https://toasttoasttoast.github.io/art74/game/backpg3.png");
+  backBruceIntro = loadImage("https://toasttoasttoast.github.io/art74/game/backpg4.png");
+  backWillowIntro = loadImage("https://toasttoasttoast.github.io/art74/game/backpg5.png");
+  backTitanIntro = loadImage("https://toasttoasttoast.github.io/art74/game/backpg6.png");
+  backpg7 = loadImage("https://toasttoasttoast.github.io/art74/game/backpg7.png");
+  backpg8 = loadImage("https://toasttoasttoast.github.io/art74/game/backpg8.png");
+  backpg9 = loadImage("https://toasttoasttoast.github.io/art74/game/backpg9.png");
+  backpg10 = loadImage("https://toasttoasttoast.github.io/art74/game/backpg10.png");
+  backpg11 = loadImage("https://toasttoasttoast.github.io/art74/game/backpg11.png");
+  backpg12 = loadImage("https://toasttoasttoast.github.io/art74/game/backpg12.png");
+  backpg13 = loadImage("https://toasttoasttoast.github.io/art74/game/backpg13.png");
+  backpg14 = loadImage("https://toasttoasttoast.github.io/art74/game/backpg14.png");
+  backpg15 = loadImage("https://toasttoasttoast.github.io/art74/game/backpg15.png");
+  backpg151 = loadImage("https://toasttoasttoast.github.io/art74/game/backpg15_1.png");
+  backpg16 = loadImage("https://toasttoasttoast.github.io/art74/game/backpg16.png");
+  backpg17 = loadImage("https://toasttoasttoast.github.io/art74/game/backpg17.png");
+  backpg18 = loadImage("https://toasttoasttoast.github.io/art74/game/backpg18.png");
+  backpg19 = loadImage("https://toasttoasttoast.github.io/art74/game/backpg19.png");
+  backpg20 = loadImage("https://toasttoasttoast.github.io/art74/game/backpg20.png");
+  backpg21 = loadImage("https://toasttoasttoast.github.io/art74/game/backpg21.png");
+  backpg22 = loadImage("https://toasttoasttoast.github.io/art74/game/backpg22.png");
+  backpg23 = loadImage("https://toasttoasttoast.github.io/art74/game/backpg23.png");
+  backpg24 = loadImage("https://toasttoasttoast.github.io/art74/game/backpg24.png");
+  backpg25 = loadImage("https://toasttoasttoast.github.io/art74/game/backpg25.png");
+  backpg26 = loadImage("https://toasttoasttoast.github.io/art74/game/backpg26.png");
+  backpg27 = loadImage("https://toasttoasttoast.github.io/art74/game/backpg27.png");
+  backpg28 = loadImage("https://toasttoasttoast.github.io/art74/game/backpg28.png");
+  backpg29 = loadImage("https://toasttoasttoast.github.io/art74/game/backpg29.png");
+  backpg30 = loadImage("https://toasttoasttoast.github.io/art74/game/backpg30.png");
+  backpg31 = loadImage("https://toasttoasttoast.github.io/art74/game/backpg31.png");
+  backpg32 = loadImage("https://toasttoasttoast.github.io/art74/game/backpg32.png");
+  backpg33 = loadImage("https://toasttoasttoast.github.io/art74/game/backpg33.png");
+  backpg34 = loadImage("https://toasttoasttoast.github.io/art74/game/backpg34.png");
+  backpg35 = loadImage("https://toasttoasttoast.github.io/art74/game/backpg35.png");
   
   
   //animals
-  bunnyFace = loadImage("https://toasttoasttoast.github.io/art74/fgame/bunny.png");
-  wolfu = loadImage("https://toasttoasttoast.github.io/art74/fgame/wolfu.png");
-  breeze = loadImage("https://toasttoasttoast.github.io/art74/fgame/wolf1.png");
+  bunnyFace = loadImage("https://toasttoasttoast.github.io/art74/game/bunny.png");
+  wolfu = loadImage("https://toasttoasttoast.github.io/art74/game/wolfu.png");
+  breeze = loadImage("https://toasttoasttoast.github.io/art74/game/wolf1.png");
 
   //elements
-  snowflake = loadImage("https://toasttoasttoast.github.io/art74/fgame/snowflake.png");
-  soundwave = loadImage("https://toasttoasttoast.github.io/art74/fgame/sound.png");
-  chicken = loadImage("https://toasttoasttoast.github.io/art74/fgame/chicken.png");
-  bearprint = loadImage("https://toasttoasttoast.github.io/art74/fgame/bear.png");
-  jaw = loadImage("https://toasttoasttoast.github.io/art74/fgame/jaw.png");
-  apple = loadImage("https://toasttoasttoast.github.io/art74/fgame/apple.png");
-  muffin = loadImage("https://toasttoasttoast.github.io/art74/fgame/muffin.png");
+  snowflake = loadImage("https://toasttoasttoast.github.io/art74/game/snowflake.png");
+  soundwave = loadImage("https://toasttoasttoast.github.io/art74/game/sound.png");
+  chicken = loadImage("https://toasttoasttoast.github.io/art74/game/chicken.png");
+  bearprint = loadImage("https://toasttoasttoast.github.io/art74/game/bear.png");
+  jaw = loadImage("https://toasttoasttoast.github.io/art74/game/jaw.png");
+  apple = loadImage("https://toasttoasttoast.github.io/art74/game/apple.png");
+  muffin = loadImage("https://toasttoasttoast.github.io/art74/game/muffin.png");
   
 }
 
